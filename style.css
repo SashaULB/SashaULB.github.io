@@ -1,0 +1,85 @@
+header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url(Images/BG.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.foot {
+    background-image: url("Images/Footer.png");
+    background-size: contain;
+    height: 120px;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin-left: -8px;
+    margin-bottom: -100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: -120px;
+    height: 144px;
+    width: 293px;
+    margin-bottom: 60px;
+}
+
+.headt {
+    top: 0;
+    left: 0;
+    background-image: url(Images/headv2.png);
+    background-size: contain;
+    height: 240px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headbutton {
+    height: 114px;
+    width: 238px;
+}
+
+.leftborder {
+    background-image: url(Images/LeftBorder.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    width: 200px;
+    height: 100%;
+    left: 0;
+    margin-left: -8px;
+    bottom: 0;
+    padding: 20px;
+}
+
+.Icons {
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.viewpart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 240px;
+}
+
+.Superheadbutton {
+    display: flex;
+    flex-direction: row;
+    flex: content;
+    justify-content: space-around;
+    max-width: 840px;
+}
